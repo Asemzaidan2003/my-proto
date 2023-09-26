@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main Page</title>
+    <link rel="stylesheet" href="my.css" />
+    <script src="script.js" defer></script>
+    <script type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <!--This nav bar is going to be styled in the medile -->
+      <nav class="nav">
+        <ul class="menu_list">
+          <li><h1 class="logo">Asem</h1></li>
+          <div class="item">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Photo Gallery</a></li>
+            <li><a href="#">CV</a></li>
+            <li><a href="#">Achievement</a></li>
+            <li><a href="#">What is coming up</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </div>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="upper_cont">
+      <!--A Short paragraph about me , styled to the left side  and right -->
+      <div class="me">
+        <div class="description">
+        <h1>
+          HI<br/>
+          i am Asem Zaidan and i am a programmer    
+        </h1>
+        <br><br>
+        <h6 id="about">
+          I'm an aspiring Web Designer and Developer based out of Jordan. And
+          now i am a Student at Jordan University of Science and Technology
+        </h6>
+      </div>
+<!--A picture for me , styled to the right side -->
+        <div class="Photo-cont">
+          <div class="Photo">
+            <img src="my imge.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      
+    </div>  
+      <div class="mid">
+        <div class="buttons">
+          <button class="btn">Projects</button>
+          <button class="btn">Contact Me</button>
+        </div>
+        <!--Social media icons-->
+        <div class="media">
+        <a href="https://www.facebook.com/asem.zaidan.3" target="_blank">
+        <ion-icon class="icon" name="logo-facebook"></ion-icon>
+        </a>
+        <a href="https://www.instagram.com/asem_zaidan/" target="_blank">
+        <ion-icon class="icon" name="logo-instagram"></ion-icon>
+        </a>
+        <a href="https://twitter.com/Asem36451784" target="_blank">
+        <ion-icon class="icon" name="logo-twitter"></ion-icon>
+        </a>
+        <a href="https://www.youtube.com/channel/UCQik-W08QgMNHl84zz3hQMw" target="_blank">
+        <ion-icon class="icon" name="logo-youtube"></ion-icon>
+        </a>
+        </div>
+      </div>
+      <button onclick="toggleTheme()">Change theme</button>
+  </body>
+</html>
